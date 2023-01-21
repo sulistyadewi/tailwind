@@ -111,18 +111,37 @@
     <hr />
 
     <!-- responsive design -->
-    <div class="container px-5 max-w-md mx-auto">
-      <div class="">
-        <h3 class="text-4xl my-5 font-bold text-slate-800">Welcome to tailwind</h3>
-        <img src="./image/kacamata.jpeg" class="rounded shadow-lg" alt="" />
-        <h2 class="my-3 text-2xl text-slate-700">Mari belajar tailwind bersama bc</h2>
-        <p class="text-slate-500">
+    <div
+      class="container px-5 max-w-md mx-auto sm:max-w-xl lg:flex lg:max-w-full lg:p-0"
+    >
+      <div class="lg:p-10 lg:flex-1">
+        <h3
+          class="text-4xl my-5 font-bold text-slate-800 text-center sm:text-5xl md:text-6xl lg:text-left"
+        >
+          Welcome to tailwind
+        </h3>
+        <img
+          src="./image/kacamata.jpeg"
+          class="rounded shadow-lg sm:mt-5 sm:h-64 sm:w-full sm:object-cover sm:rounded-xl lg:hidden"
+          alt=""
+        />
+        <h2 class="my-3 text-2xl text-slate-700 sm:text-3xl">
+          Mari belajar tailwind bersama bc
+        </h2>
+        <p class="text-slate-500 sm:mt-3 sm:text-xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
           corrupti placeat voluptates. Asperiores, laboriosam excepturi.
         </p>
         <div>
-          <a href="#">Let's join us</a>
+          <a
+            href="#"
+            class="bg-yellow-500 px-5 py-3 inline-block mt-2 rounded shadow uppercase font-semibold hover:bg-yellow-400 sm:mt-4"
+            >Let's join us</a
+          >
         </div>
+      </div>
+      <div class="hidden lg:flex lg:w-1/2">
+        <img src="./image/kacamata.jpeg" class="object-cover" alt="" />
       </div>
     </div>
   </body>
